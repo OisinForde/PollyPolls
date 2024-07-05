@@ -11,10 +11,6 @@ def home():
 def landingPage():
     return render_template('landingPage/index.html')
 
-@app.route('/sign')
-def signIn():
-    return render_template('signinPage/index.html')
-
 
 
 if __name__ == '__main__':
