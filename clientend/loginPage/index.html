@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='loginPage/css/styles.css') }}">
+</head>
+<body>
+    <h1>Please login</h1>
+    <p>Dont have an account? sign up here</p>
+    <a href="{{ url_for('register') }}" class="btn btn-signup">Sign Up</a>
+    <script src="{{ url_for('static', filename='login/js/app.js') }}"></script>
+</body>
+</html>
